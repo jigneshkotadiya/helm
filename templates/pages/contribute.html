@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block head_title %} About {{ block.super }}{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+  {% with page_title="Contribute" %}
+  {% include "page_title.html" %}
+  {% endwith %}
+
+  <div class="row">
+    <div class="col-sm-8 offset-sm-2">
+      <p>This is an example contribute page.</p>
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}

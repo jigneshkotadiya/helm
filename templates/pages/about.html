@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block head_title %} About {{ block.super }}{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+  {% with page_title="About" %}
+  {% include "page_title.html" %}
+  {% endwith %}
+
+  <div class="row">
+    <div class="col-sm-8 offset-sm-2">
+      <div class="text-center">
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container">
+        
+        <div class="row">
+
+          <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="https://www.thebalancecareers.com/thmb/wE-8Cn43R87kYTN-u3gAkMWpeQs=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-638316888-58bd8bc93df78c353c5b8631.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="https://www.thebalancecareers.com/thmb/wE-8Cn43R87kYTN-u3gAkMWpeQs=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-638316888-58bd8bc93df78c353c5b8631.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="https://www.thebalancecareers.com/thmb/wE-8Cn43R87kYTN-u3gAkMWpeQs=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-638316888-58bd8bc93df78c353c5b8631.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+{% endblock %}

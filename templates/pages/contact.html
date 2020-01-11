@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block head_title %}Contact {{ block.super }}{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+  {% with page_title="Contact" %}
+  {% include "page_title.html" %}
+  {% endwith %}
+
+  <div class="row">
+    <div class="col-sm-8 offset-sm-2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat arcu,</p>
+      <p>You can contact us at <a href="mailto:{{ contact_email }}">{{ contact_email }}</a>.</p>
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}

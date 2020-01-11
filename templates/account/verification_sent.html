@@ -1,0 +1,22 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+
+{% block head_title %} Verify Your E-mail Address {{ block.super }}{% endblock %}
+<div class="container">
+
+    {% block content %}
+
+        {% with page_title="Verify Your E-mail Address" %}
+        {% include "page_title.html" %}
+        {% endwith %}
+
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <p>{% blocktrans %}We have sent an e-mail to you for verification. Follow the link provided to finalize the signup process. Please contact us if you do not receive it within a few minutes.{% endblocktrans %}</p>
+            </div>
+        </div>
+    {% endblock %}
+    {% include '_alerts.html' %}
+
+</div>

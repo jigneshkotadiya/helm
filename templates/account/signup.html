@@ -1,0 +1,40 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+{% load bootstrap4 %}
+
+{% block head_title %} Signup {{ block.super }}{% endblock %}
+
+<div class="container">
+
+  {% block content %}
+
+    {% with page_title="Sign up" %}
+    {% include "page_title.html" %}
+    {% endwith %}
+
+    <div class="row">
+      <div class="col-md-4 offset-md-4">
+        {% bootstrap_form_errors form %}
+        <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
+          {% csrf_token %}
+          {% bootstrap_form form %}
+
+			    {% if redirect_field_value %}
+        		<input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+			    {% endif %}
+
+		      {% buttons %}
+          		<button type="submit" class="btn btn-primary" title="Sign Up">
+            		Sign Up
+          		</button>
+          {% endbuttons %}     
+          <h4>
+            	if have then <a href="{{ login_url }}">Sign in</a> !
+          </h4>   
+        </form>
+      </div>
+    </div>
+  {% endblock %}
+
+</div>

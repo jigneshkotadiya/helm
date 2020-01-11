@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block head_title %}404 {{ block.super }}{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+  {% with page_title="404 Page Not Found" %}
+  {% include "page_title.html" %}
+  {% endwith %}
+
+</div>
+
+{% endblock %}

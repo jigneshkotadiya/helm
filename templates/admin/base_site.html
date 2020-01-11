@@ -1,0 +1,22 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{{ title }} | {% trans 'Exam System' %}{% endblock %}
+
+{% block extrahead %}
+{{ block.super }}
+  <link rel="shortcut icon" href="{% static 'favicon.ico'%}" type="image/x-icon">
+{% endblock %}
+
+{% block branding %}
+<style type="text/css">
+  #header
+  {
+    /* your style here */
+  }
+</style>
+<h1 id="site-name">{% trans 'Engineering Exam System' %}</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
