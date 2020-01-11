@@ -1,0 +1,39 @@
+name: helm application
+
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        python -m pip install pip
+        pip install awsebcli==3.15.3
+    - name: list packages
+      run: |
+        pip freeze
+    - name: Configure my AWS Credentils
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id    : ${{ secrets.aws_access_key_id }}
+        aws-secret-access-key: ${{ secrets.aws_secret_access_key }}
+        aws-region           : ${{ secrets.aws_region }}
+    - name: status
+      run: |
+        eb status stage
+    - name: deploy
+      run: |
+        eb deploy stage
+  
