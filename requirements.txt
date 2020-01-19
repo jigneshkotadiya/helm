@@ -15,7 +15,6 @@ sentry-sdk==0.14.0
 django-admin-list-filter-dropdown==1.0.3
 
 Faker==3.0.0
-# django-smart-selects==1.5.4
 git+https://github.com/kirkus/django-smart-selects.git#egg=django-smart-selects
 
 # awsebcli==3.15.3
