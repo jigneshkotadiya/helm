@@ -1,0 +1,1423 @@
+[
+    {
+        "fields": {
+            "id": 1,
+            "name": "Applied Mathematics -III",
+            "subject_slug": "applied-mathematics-cs-iii",
+            "code": "CSC301"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 2,
+            "name": "Digital Logic Design and Analysis",
+            "subject_slug": "digital-logic-design-and-analysis",
+            "code": "CSC302"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 3,
+            "name": "Discrete Mathematic",
+            "subject_slug": "discrete-mathematic",
+            "code": "CSC303"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 4,
+            "name": "Electronic Circuits and Communication Fundamentals",
+            "subject_slug": "electronic-circuits-and-communication-fundamentals",
+            "code": "CSC304"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 5,
+            "name": "Data Structures",
+            "subject_slug": "data-structures",
+            "code": "CSC305"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 6,
+            "name": "Digital System Lab",
+            "subject_slug": "digital-system-lab",
+            "code": "CSL301"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 7,
+            "name": "Basic Electronics Lab",
+            "subject_slug": "basic-electronics-lab",
+            "code": "CSL302"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 8,
+            "name": "Data structure Lab",
+            "subject_slug": "data-structure-lab",
+            "code": "CSL303"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 9,
+            "name": "OOPM(Java) Lab",
+            "subject_slug": "oopmjava-lab",
+            "code": "CSL304"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 10,
+            "name": "Applied Mathematics- IV",
+            "subject_slug": "applied-mathematics-cs-iv",
+            "code": "CSC401"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 11,
+            "name": "Analysis of Algorithms",
+            "subject_slug": "analysis-of-algorithms",
+            "code": "CSC402"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 12,
+            "name": "Computer Organization and Architecture",
+            "subject_slug": "computer-organization-and-architecture-cs",
+            "code": "CSC403"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 13,
+            "name": "Computer Graphics",
+            "subject_slug": "computer-graphics",
+            "code": "CSC404"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 14,
+            "name": "Operating System",
+            "subject_slug": "operating-system",
+            "code": "CSC405"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 15,
+            "name": "Analysis of Algorithms Lab",
+            "subject_slug": "analysis-of-algorithms-lab",
+            "code": "CSL401"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 16,
+            "name": "Computer Graphics Lab",
+            "subject_slug": "computer-graphics-lab",
+            "code": "CSL402"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 17,
+            "name": "Processor Architecture Lab",
+            "subject_slug": "processor-architecture-lab",
+            "code": "CSL403"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 18,
+            "name": "Operating System Lab",
+            "subject_slug": "operating-system-lab",
+            "code": "CSL404"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 19,
+            "name": "Open Source Tech Lab",
+            "subject_slug": "open-source-tech-lab",
+            "code": "CSL405"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 20,
+            "name": "Microprocessor",
+            "subject_slug": "microprocessor",
+            "code": "CSC501"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 21,
+            "name": "Database Management System",
+            "subject_slug": "database-management-cs-system",
+            "code": "CSC502"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 22,
+            "name": "Computer Network",
+            "subject_slug": "computer-network",
+            "code": "CSC503"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 23,
+            "name": "Theory Of Computer Science",
+            "subject_slug": "theory-of-computer-science",
+            "code": "CSC504"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 24,
+            "name": "Microprocessor Lab",
+            "subject_slug": "microprocessor-lab",
+            "code": "CSL501"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 25,
+            "name": "Computer Network Lab",
+            "subject_slug": "computer-network-lab",
+            "code": "CSL502"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 26,
+            "name": "Database and Info. System Lab",
+            "subject_slug": "database-and-info-system-lab",
+            "code": "CSL503"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 27,
+            "name": "Web Design Lab",
+            "subject_slug": "web-design-lab",
+            "code": "CSL504"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 28,
+            "name": "Business Comm. and Ethics",
+            "subject_slug": "business-comm-and-ethics",
+            "code": "CSL505"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 29,
+            "name": "Software Engineering",
+            "subject_slug": "software-engineering",
+            "code": "CSC601"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 30,
+            "name": "System Programming and Compiler Construction",
+            "subject_slug": "system-programming-and-compiler-construction",
+            "code": "CSC602"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 31,
+            "name": "Data Warehouse & Mining",
+            "subject_slug": "data-warehouse-mining",
+            "code": "CSC603"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 32,
+            "name": "Cryptography and System Security",
+            "subject_slug": "cryptography-and-system-security",
+            "code": "CSC604"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 33,
+            "name": "Software Engineering Lab",
+            "subject_slug": "software-engineering-lab",
+            "code": "CSL601"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 34,
+            "name": "System Software Lab",
+            "subject_slug": "system-software-lab",
+            "code": "CSL602"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 35,
+            "name": "Data Warehouse & Mining Lab",
+            "subject_slug": "data-warehouse-mining-lab",
+            "code": "CSL603"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 36,
+            "name": "System Security Lab",
+            "subject_slug": "system-security-lab",
+            "code": "CSL604"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 37,
+            "name": "Mini Project",
+            "subject_slug": "mini-project-cs",
+            "code": "CSL605"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 38,
+            "name": "Digital Signal and Image Processing",
+            "code": "CSC701",
+            "subject_slug": "digital-signal-and-image-processing"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 39,
+            "name": "Mobile Communication & Computing",
+            "code": "CSC702",
+            "subject_slug": "mobile-communication-computing"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 40,
+            "name": "Artificial Intelligence and Soft Computing",
+            "code": "CSC703",
+            "subject_slug": "artificial-intelligence-and-soft-computing"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 41,
+            "name": "Digital Signal and Image Processing Lab",
+            "code": "CSL701",
+            "subject_slug": "digital-signal-and-image-processing-lab"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 42,
+            "name": "Mobile App Development Tech. Lab",
+            "code": "CSL702",
+            "subject_slug": "mobile-app-development-tech-lab"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 43,
+            "name": "Artificial Intelligence and Soft Computing Lab",
+            "code": "CSL703",
+            "subject_slug": "artificial-intelligence-and-soft-computing-lab"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 44,
+            "name": "Computational Lab 1",
+            "code": "CSL704",
+            "subject_slug": "computational-lab-1"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 45,
+            "name": "Major Project 1",
+            "code": "CSL705",
+            "subject_slug": "major-project-1"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 46,
+            "name": "Human Machine Interaction",
+            "code": "CSC801",
+            "subject_slug": "human-machine-interaction"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 47,
+            "name": "Distributed Computing",
+            "code": "CSC802",
+            "subject_slug": "distributed-computing"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 48,
+            "name": "Human Machine Interaction Lab",
+            "code": "CSL801",
+            "subject_slug": "human-machine-interaction-lab"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 49,
+            "name": "Distributed Computing Lab",
+            "code": "CSL802",
+            "subject_slug": "distributed-computing-lab"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 50,
+            "name": "Cloud Computing Lab",
+            "code": "CSL803",
+            "subject_slug": "cloud-computing-lab"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 51,
+            "name": "Computational Lab 2",
+            "code": "CSL804",
+            "subject_slug": "computational-lab-2"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 52,
+            "name": "Major Project 2",
+            "code": "CSL805",
+            "subject_slug": "major-project-2"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 53,
+            "name": "Applied Mathematics III",
+            "subject_slug": "applied-mathematics-it-iii",
+            "code": "ITC301"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 54,
+            "name": "Logic Design",
+            "subject_slug": "logic-design",
+            "code": "ITC302"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 55,
+            "name": "Data Structures & Analysis",
+            "subject_slug": "data-structures-analysis",
+            "code": "ITC303"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 56,
+            "name": "Database Management System",
+            "subject_slug": "database-management-it-system",
+            "code": "ITC304"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 57,
+            "name": "Principle of Communications",
+            "subject_slug": "principle-of-communications",
+            "code": "ITC305"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 58,
+            "name": "Digital Design Lab",
+            "subject_slug": "digital-design-lab",
+            "code": "ITL301"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 59,
+            "name": "Data Structures Lab",
+            "subject_slug": "data-structures-lab",
+            "code": "ITL302"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 60,
+            "name": "SQL Lab",
+            "subject_slug": "sql-lab",
+            "code": "IT303"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 61,
+            "name": "Java Programming Lab",
+            "subject_slug": "java-programming-lab",
+            "code": "ITL304"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 62,
+            "name": "Applied Mathematics-IV",
+            "subject_slug": "applied-mathematics-it-iv",
+            "code": "ITC401"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 63,
+            "name": "Computer Networks",
+            "subject_slug": "computer-networks",
+            "code": "ITC402"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 64,
+            "name": "Operating Systems",
+            "subject_slug": "operating-systems",
+            "code": "ITC403"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 65,
+            "name": "Computer Organization and Architecture",
+            "subject_slug": "computer-organization-and-architecture-it",
+            "code": "ITC404"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 66,
+            "name": "Automata Theory",
+            "subject_slug": "automata-theory",
+            "code": "ITC405"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 67,
+            "name": "Networking Lab",
+            "subject_slug": "networking-lab",
+            "code": "ITL401"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 68,
+            "name": "Unix Lab",
+            "subject_slug": "unix-lab",
+            "code": "ITL402"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 69,
+            "name": "Microprocessor Programming Lab",
+            "subject_slug": "microprocessor-programming-lab",
+            "code": "ITL403"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 70,
+            "name": "Python Lab",
+            "subject_slug": "python-lab",
+            "code": "ITL404"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 71,
+            "name": "Microcontroller and Embedded Programming",
+            "subject_slug": "microcontroller-and-embedded-programming",
+            "code": "ITC501"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 72,
+            "name": "Internet Programming",
+            "subject_slug": "internet-programming",
+            "code": "ITC502"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 73,
+            "name": "Advanced Data Management Technology",
+            "subject_slug": "advanced-data-management-technology",
+            "code": "ITC503"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 74,
+            "name": "Cryptography & Network Security",
+            "subject_slug": "cryptography-network-security",
+            "code": "ITC504"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 75,
+            "name": "Internet Programming Lab",
+            "subject_slug": "internet-programming-lab",
+            "code": "ITL501"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 76,
+            "name": "Security Lab",
+            "subject_slug": "security-lab",
+            "code": "ITL502"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 77,
+            "name": "OLAP Lab",
+            "subject_slug": "olap-lab",
+            "code": "ITL503"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 78,
+            "name": "IOT (Mini Project) Lab",
+            "subject_slug": "iot-mini-project-lab",
+            "code": "ITL504"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 79,
+            "name": "Business Communication and Ethics",
+            "subject_slug": "business-communication-and-ethics-it",
+            "code": "ITL505"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 80,
+            "name": "Advanced Data Structures & Analysis of Algorithms",
+            "subject_slug": "advanced-data-structures-analysis-of-algorithms",
+            "code": "ITDLO5011"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 81,
+            "name": "Image Processing",
+            "subject_slug": "image-processing",
+            "code": "ITDLO5012"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 82,
+            "name": "E-Commerce & E-Business",
+            "subject_slug": "e-commerce-e-business",
+            "code": "ITDLO5013"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 83,
+            "name": "IT Enabled Services",
+            "subject_slug": "it-enabled-services",
+            "code": "ITDLO5014"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 84,
+            "name": "Computer Graphics & Virtual Reality",
+            "subject_slug": "computer-graphics-virtual-reality",
+            "code": "ITDLO5015"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 85,
+            "name": "Software Engineering with Project Management",
+            "subject_slug": "software-engineering-with-project-management",
+            "code": "ITC601"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 86,
+            "name": "Data Mining and Business Intelligence",
+            "subject_slug": "data-mining-and-business-intelligence",
+            "code": "ITC602"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 87,
+            "name": "Cloud Computing & Services",
+            "subject_slug": "cloud-computing-services",
+            "code": "ITC603"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 88,
+            "name": "Wireless Networks",
+            "subject_slug": "wireless-networks",
+            "code": "ITC604"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 89,
+            "name": "Department Level Optional Course -II",
+            "subject_slug": "department-level-optional-course-ii-it",
+            "code": "ITDLO-II"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 90,
+            "name": "Software Design Lab",
+            "subject_slug": "software-design-lab",
+            "code": "ITL601"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 91,
+            "name": "Business Intelligence Lab",
+            "subject_slug": "business-intelligence-lab",
+            "code": "ITL602"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 92,
+            "name": "Cloud Service Design Lab",
+            "subject_slug": "cloud-service-design-lab",
+            "code": "ITL603"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 93,
+            "name": "Sensor Network Lab",
+            "subject_slug": "sensor-network-lab",
+            "code": "ITL604"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 94,
+            "name": "Mini-project",
+            "subject_slug": "mini-project-it",
+            "code": "ITM605"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 95,
+            "name": "Advance Internet Programming",
+            "subject_slug": "advance-internet-programming",
+            "code": "ITDLO6021"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 96,
+            "name": "Software Architecture",
+            "subject_slug": "software-architecture",
+            "code": "ITDLO6022"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 97,
+            "name": "Digital Forensics",
+            "subject_slug": "digital-forensics",
+            "code": "ITDLO6023"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 98,
+            "name": "Multimedia Systems",
+            "subject_slug": "multimedia-systems",
+            "code": "ITDLO6024"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 99,
+            "name": "Green IT",
+            "subject_slug": "green-it",
+            "code": "ITDLO6025"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 100,
+            "name": "Structural Analysis – II",
+            "subject_slug": "structural-analysis-a-ii",
+            "code": "CE-C501"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 101,
+            "name": "Geotechnical Engineering – I",
+            "subject_slug": "geotechnical-engineering-a-i",
+            "code": "CE-C502"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 102,
+            "name": "Applied Hydraulics",
+            "subject_slug": "applied-hydraulics",
+            "code": "CE-C503"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 103,
+            "name": "Environmental Engineering -I",
+            "subject_slug": "environmental-engineering-i",
+            "code": "CE-C504"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 104,
+            "name": "Transportation Engineering – I",
+            "subject_slug": "transportation-engineering-a-i",
+            "code": "CE-C505"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 105,
+            "name": "Advanced Surveying",
+            "subject_slug": "advanced-surveying",
+            "code": "CE-DLO5061"
+            
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 106,
+            "name": "Advanced Concrete Technology",
+            "subject_slug": "advanced-concrete-technology",
+            "code": "CE-DLO5062"
+            
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 107,
+            "name": "Building Services and Repairs",
+            "subject_slug": "building-services-and-repairs",
+            "code": "CE-DLO5063"
+            
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 108,
+            "name": " Advanced Structural Mechanics",
+            "subject_slug": "advanced-structural-mechanics",
+            "code": "CE-DLO5064"
+            
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 109,
+            "name": "Business and Communication Ethics",
+            "subject_slug": "business-and-communication-ethics",
+            "code": "CE-C507"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 110,
+            "name": "Geotechnical Engineering-II",
+            "subject_slug": "geotechnical-engineering-ii",
+            "code": "CE-C601"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 111,
+            "name": "Design and Drawing of Steel Structures",
+            "subject_slug": "design-and-drawing-of-steel-structures",
+            "code": "CE-C602"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 112,
+            "name": "Transportation Engineering. – II",
+            "subject_slug": "transportation-engineering-a-ii",
+            "code": "CE-C603"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 113,
+            "name": "Environmental Engineering. – II",
+            "subject_slug": "environmental-engineering-a-ii",
+            "code": "CE-C604"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 114,
+            "name": "Water Resource Engineering –I",
+            "subject_slug": "water-resource-engineering-ai",
+            "code": "CE-C605"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 115,
+            "name": "Advanced Construction Equipment",
+            "subject_slug": "advanced-construction-equipment",
+            "code": "CE-DLO6061"
+            
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 116,
+            "name": "Traffic Engineering and Management",
+            "subject_slug": "traffic-engineering-and-management",
+            "code": "CE-DLO6062"
+            
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 117,
+            "name": "Ground Improvement Techniques",
+            "subject_slug": "ground-improvement-techniques",
+            "code": "CE-DLO6063"
+            
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 118,
+            "name": "Advanced Structural Analysis",
+            "subject_slug": "advanced-structural-analysis",
+            "code": "CE-DLO6064"
+            
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 119,
+            "name": "Software Applications in Civil Engineering",
+            "subject_slug": "software-applications-in-civil-engineering",
+            "code": "CE-C607"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 120,
+            "name": "Applied Mathematics - III",
+            "subject_slug": "applied-mathematics-ee-iii",
+            "code": "EEC301"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 121,
+            "name": "Electronic Devices and Circuits",
+            "subject_slug": "electronic-devices-and-circuits",
+            "code": "EEC302"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 122,
+            "name": "Conventional and Non-Conventional Power Generation",
+            "subject_slug": "conventional-and-non-conventional-power-generation",
+            "code": "EEC303"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 123,
+            "name": "Electrical and Electronics Measurement",
+            "subject_slug": "electrical-and-electronics-measurement",
+            "code": "EEC304"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 124,
+            "name": "Electrical Machine – I",
+            "subject_slug": "electrical-machine-a-i",
+            "code": "EEC305"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 125,
+            "name": "Electrical and Electronics Measurement Lab",
+            "subject_slug": "electrical-and-electronics-measurement-lab",
+            "code": "EEL301"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 126,
+            "name": "Object Oriented Programming and Methodology Lab",
+            "subject_slug": "object-oriented-programming-and-methodology-lab",
+            "code": "EEL302"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 127,
+            "name": "Electronics Lab - I",
+            "subject_slug": "electronics-lab-i",
+            "code": "EEL303"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 128,
+            "name": "Electrical Machine Lab- I",
+            "subject_slug": "electrical-machine-lab-i",
+            "code": "EEL304"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 129,
+            "name": "Applied Mathematics - IV",
+            "subject_slug": "applied-mathematics-ee-iv",
+            "code": "EEC401"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 130,
+            "name": "Power System - I",
+            "subject_slug": "power-system-i",
+            "code": "EEC402"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 131,
+            "name": "Electrical Machines – II",
+            "subject_slug": "electrical-machines-a-ii",
+            "code": "EEC403"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 132,
+            "name": "Electromagnetic Field and wave Theory",
+            "subject_slug": "electromagnetic-field-and-wave-theory",
+            "code": "EEC404"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 133,
+            "name": "Analog and Digital Integrated Circuits",
+            "subject_slug": "analog-and-digital-integrated-circuits",
+            "code": "EEC405"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 134,
+            "name": "Electrical Network",
+            "subject_slug": "electrical-network",
+            "code": "EEC406"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 135,
+            "name": "Simulation Lab - I",
+            "subject_slug": "simulation-lab-i",
+            "code": "EEL401"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 136,
+            "name": "Electrical Machines Lab - II",
+            "subject_slug": "electrical-machines-lab-ii",
+            "code": "EEL402"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 137,
+            "name": "Electronics Lab - II",
+            "subject_slug": "electronics-lab-ii",
+            "code": "EEL403"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 138,
+            "name": "Electrical Workshop",
+            "subject_slug": "electrical-workshop",
+            "code": "EEL404"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 139,
+            "name": "Power System - II",
+            "subject_slug": "power-system-ii",
+            "code": "EEC501"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 140,
+            "name": "Electrical Machines - III",
+            "subject_slug": "electrical-machines-iii",
+            "code": "EEC502"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 141,
+            "name": "Control System - I",
+            "subject_slug": "control-system-i",
+            "code": "EEC503"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 142,
+            "name": "Power Electronics",
+            "subject_slug": "power-electronics",
+            "code": "EEC504"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 143,
+            "name": "Department Level Optional Course-I",
+            "subject_slug": "department-level-optional-course-i",
+            "code": "EEDLO501X"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 144,
+            "name": "Business Communication and Ethics",
+            "subject_slug": "business-communication-and-ethics-ee",
+            "code": "EEL501"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 145,
+            "name": "Control System Lab",
+            "subject_slug": "control-system-lab",
+            "code": "EEL502"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 146,
+            "name": "Electrical Machines Lab - III",
+            "subject_slug": "electrical-machines-lab-iii",
+            "code": "EEL503"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 147,
+            "name": "Power Electronics Lab",
+            "subject_slug": "power-electronics-lab",
+            "code": "EEL504"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 148,
+            "name": "Protection and Switchgear Engineering",
+            "subject_slug": "protection-and-switchgear-engineering",
+            "code": "EEC601"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 149,
+            "name": "Electrical Machines - IV",
+            "subject_slug": "electrical-machines-iv",
+            "code": "EEC602"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 150,
+            "name": "Signal processing",
+            "subject_slug": "signal-processing",
+            "code": "EEC603"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 151,
+            "name": "Microcontroller and its Applications",
+            "subject_slug": "microcontroller-and-its-applications",
+            "code": "EEC604"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 152,
+            "name": "Control System - II",
+            "subject_slug": "control-system-ii",
+            "code": "EEC605"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 153,
+            "name": "Department Level Optional Course-II",
+            "subject_slug": "department-level-optional-course-ii-ee",
+            "code": "EEDLO602X"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 154,
+            "name": "Electrical Protection Lab",
+            "subject_slug": "electrical-protection-lab",
+            "code": "EEL601"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 155,
+            "name": "Electrical Machines Lab - IV",
+            "subject_slug": "electrical-machines-lab-iv",
+            "code": "EEL602"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 156,
+            "name": "Microcontroller Lab",
+            "subject_slug": "microcontroller-lab",
+            "code": "EEL603"
+        },
+        "model": "engineering.engineeringsubject"
+    },
+    {
+        "fields": {
+            "id": 157,
+            "name": "Simulation Lab – II",
+            "subject_slug": "simulation-lab-a-ii",
+            "code": "EEL604"
+        },
+        "model": "engineering.engineeringsubject"
+    }
+]

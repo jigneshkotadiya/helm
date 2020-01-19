@@ -11,7 +11,7 @@
     <ul class="navbar-nav mr-auto">
       {% if user.is_authenticated %}
         <li class="nav-item active">
-          <a class="nav-link" href="{% url 'deshboard' %}">Deshboard</a>
+          <a class="nav-link" href="{% url 'engineering:deshboard' %}">Deshboard</a>
         </li>
       {% endif %}
       {% comment %} <li class="nav-item">

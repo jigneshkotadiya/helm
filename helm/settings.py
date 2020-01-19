@@ -37,29 +37,30 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.sites', # new
+    'django.contrib.sites',  # new
 
-    'allauth', # new
-    'allauth.account', # new
-    'allauth.socialaccount', # new
-    'allauth.socialaccount.providers.google', # new
+    'allauth',  # new
+    'allauth.account',  # new
+    'allauth.socialaccount',  # new
+    'allauth.socialaccount.providers.google',  # new
 
-    'bootstrap4', # new
-    'static_precompiler', #new
-    'debug_toolbar', #new
+    'bootstrap4',  # new
+    'static_precompiler',  # new
+    'debug_toolbar',  # new
+    'smart_selects',  # new
+    'django_admin_listfilter_dropdown',  # new
 
-    'app', # new
-    'users', # new
+    'app',  # new
+    'users',  # new
     'pages',  # new
     'resume',  # new
     'engineering',  # new
-
-
+    'primary_data',  # new
 
 ]
 
 # custom user model
-AUTH_USER_MODEL = 'users.CusetomUser' # new
+AUTH_USER_MODEL = 'users.CusetomUser'  # new
 
 MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
@@ -122,7 +123,7 @@ if 'RDS_HOSTNAME' in os.environ:
 else:
     DATABASES = {
         'default': {
-            'NAME': 'helm_v3',
+            'NAME': 'helm_v4',
             'ENGINE': 'django.db.backends.mysql',
             'USER': 'root',
             'PASSWORD': 'mysql',
@@ -179,7 +180,7 @@ STATICFILES_DIRS = [
 
 
 # for default
-LOGIN_REDIRECT_URL = 'deshboard'
+LOGIN_REDIRECT_URL = 'engineering:deshboard'
 LOGOUT_REDIRECT_URL = 'home'
 
 
@@ -207,7 +208,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 
 # sendgrid email
-SENDGRID_API_KEY = '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'
+SENDGRID_API_KEY = 'SG.1sx0EHN9TUqo5SijOPDyWw.\
+    W0l8RuP0_FX3-G1KTSe5njFAMqANzJdm1KV9PxfiCic'
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'apikey'
 EMAIL_HOST_PASSWORD = SENDGRID_API_KEY
@@ -231,13 +233,13 @@ STATIC_PRECOMPILER_OUTPUT_DIR = os.path.join(BASE_DIR, 'helm_static/compiled')
 STATIC_PRECOMPILER_DISABLE_AUTO_COMPILE = False
 STATIC_PRECOMPILER_COMPILERS = (
     ('static_precompiler.compilers.libsass.SCSS', {
-        "sourcemap_enabled": True,
+        "sourcemap_enabled": False,
         # "load_paths": ["/path"],
         "precision": 8,
-        # "output_style": "compressed",
+        "output_style": "compressed",
     }),
     ('static_precompiler.compilers.libsass.SASS', {
-        "sourcemap_enabled": True,
+        "sourcemap_enabled": False,
         "load_paths": ["/path"],
         "precision": 8,
         "output_style": "compressed",

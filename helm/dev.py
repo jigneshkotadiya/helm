@@ -11,7 +11,8 @@ if not os.path.exists(LOG_DIR):
 LOGFILE_MAXSIZE = 10 * 1024 * 1024
 
 # Number of old log files that are stored before they are deleted
-# see https://docs.python.org/3/library/logging.handlers.html#rotatingfilehandler
+# see https://docs.python.org/3/library/logging.handlers.html
+
 LOGFILE_BACKUP_COUNT = 3
 
 LOGGING = {
@@ -19,7 +20,8 @@ LOGGING = {
     'disable_existing_loggers': True,
     'formatters': {
         'verbose': {
-            'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
+            'format': '{levelname} {asctime} {module} {process:d} \
+                        {thread:d} {message}',
             'style': '{',
         },
         'simple': {

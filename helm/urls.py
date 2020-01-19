@@ -22,23 +22,27 @@ from django.conf.urls.static import static
 from django.views.generic import TemplateView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    
     path('', include('pages.urls')),
+    path('admin/', admin.site.urls),
     path('engineering/', include('engineering.urls')),
 
-    # all auth 
-    path('accounts/', include('allauth.urls')), # new
+    # all auth
+    path('accounts/', include('allauth.urls')),  # new
 
     # default auth modify
-    path('users/', include('users.urls')), # new
+    path('users/', include('users.urls')),  # new
+
+    #  smart select
+    path('chaining/', include('smart_selects.urls')),  # new
 
     # default auth with django
     # path('users/', include('django.contrib.auth.urls')), # new
 ]
 
+
 def trigger_error(request):
     division_by_zero = 1 / 0
+
 
 urlpatterns += [
     path('sentry-debug/', trigger_error),
@@ -48,7 +52,6 @@ urlpatterns += [
 if settings.DEBUG:
     urlpatterns += [
     ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-    
     urlpatterns += [
     ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

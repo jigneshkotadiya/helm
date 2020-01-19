@@ -1,19 +1,19 @@
 from django.contrib import admin
 from .models import *
-# from django_admin_listfilter_dropdown.filters import DropdownFilter, \
-#         RelatedDropdownFilter, ChoiceDropdownFilter
+from django_admin_listfilter_dropdown.filters import DropdownFilter, \
+        RelatedDropdownFilter, ChoiceDropdownFilter
 
 
 # Register your models here.
 class EngineeringSemesterAdmin(admin.ModelAdmin):
-    list_display = ('id', 'semester',)
+    list_display = ('id', 'semester', 'stream')
     list_display_links = ('semester',)
     search_fields = ('semester',)
     list_per_page = 50
 
 
 class EngineeringStreamAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'short_form',)
+    list_display = ('id', 'name', 'stream_slug', 'short_form',)
     list_display_links = ('name',)
     search_fields = ('name',)
     list_filter = ('short_form',)
@@ -29,6 +29,14 @@ class EngineeringExamAdmin(admin.ModelAdmin):
     prepopulated_fields = {"exam_slug": ("name",)}
 
 
+class EngineeringSubjectAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name', 'subject_slug', 'code', 'semester',)
+    list_display_links = ('name', )
+    search_fields = ('name', 'code', )
+    list_per_page = 100
+    prepopulated_fields = {"subject_slug": ("name", )}
+
+
 class EngineeringSubjectClassificationAdmin(admin.ModelAdmin):
     list_display = ('id', 'stream', 'semester')
     list_display_links = ('id',)
@@ -38,7 +46,7 @@ class EngineeringSubjectClassificationAdmin(admin.ModelAdmin):
 
 
 class EngineeringOutcomeAdmin(admin.ModelAdmin):
-    list_display = ('id', 'user', 'exam', 'subject', 'stream_sem',
+    list_display = ('id', 'user', 'exam', 'subject', 'semester',
                     'i_assessment', 'internal_assessment_grade', 't_work',
                     'term_work_grade', 'o_exam', 'oral_grade', 'o_p_exam',
                     'oral_and_practical_grade', 'e_s_exam',
@@ -46,9 +54,10 @@ class EngineeringOutcomeAdmin(admin.ModelAdmin):
     list_display_links = ('user',)
     search_fields = ('user__username',)
     list_per_page = 50
-    raw_id_fields = ('user', 'subject',)
-    # list_filter = (('stream_sem', RelatedDropdownFilter),
-    #                ('subject', RelatedDropdownFilter),  'exam')
+    raw_id_fields = ('user',)
+    list_filter = (
+        ('semester', RelatedDropdownFilter),
+        ('subject', RelatedDropdownFilter),  'exam')
 
     admin.site.empty_value_display = '-'
 
@@ -87,9 +96,26 @@ class EngineeringOutcomeAdmin(admin.ModelAdmin):
     #     return self.list_filter
 
 
+class EngineeringExamApplicationSubjectInlineAdmin(admin.TabularInline):
+    model = EngineeringExamApplicationSubject
+    extra = 5
+
+
+@admin.register(EngineeringExamApplication)
+class EngineeringExamApplicationAdmin(admin.ModelAdmin):
+    list_display = ('id', 'user', 'exam',
+                    'exam_type', )
+    list_display_links = ('user',)
+    search_fields = ('user__username',)
+    list_per_page = 50
+    raw_id_fields = ('user',)
+    inlines = [
+        EngineeringExamApplicationSubjectInlineAdmin,
+    ]
+
+
 admin.site.register(EngineeringSemester, EngineeringSemesterAdmin)
 admin.site.register(EngineeringStream, EngineeringStreamAdmin)
 admin.site.register(EngineeringExam, EngineeringExamAdmin)
-admin.site.register(EngineeringSubjectClassification,
-                    EngineeringSubjectClassificationAdmin)
+admin.site.register(EngineeringSubject, EngineeringSubjectAdmin)
 admin.site.register(EngineeringOutcome, EngineeringOutcomeAdmin)
