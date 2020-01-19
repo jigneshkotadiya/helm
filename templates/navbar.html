@@ -26,7 +26,7 @@
           Hey {{ user.username }}
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-          {% if user.is_superuser %}
+          {% if user.is_staff %}
           <a class="dropdown-item" href="/admin">Admin</a>
           {% endif %}
           {% comment %} <a class="dropdown-item" href="/userprofile/{{ user.id }}/">Profile</a> {% endcomment %}
