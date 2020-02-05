@@ -288,12 +288,11 @@ class EngineeringExamApplication(models.Model):
     exam_type = models.CharField(
                             max_length=1,
                             choices=EXAM_CHOICES,
-                            null=True,
-                            blank=True)
+                            )
 
     def __str__(self):
-        return self.user + " - " + self.exam
-
+        return self.user.username + " - " + self.exam.name
+        # return self.user.username
 
 class EngineeringExamApplicationSubject(models.Model):
     form = models.ForeignKey(
@@ -318,5 +317,26 @@ class EngineeringExamApplicationSubject(models.Model):
                             EngineeringSubject,
                             chained_field="semester",
                             chained_model_field="semester",
+                            on_delete=models.DO_NOTHING
+                        )
+
+
+class EngineeringExamApplicationSubjectUser(models.Model):
+    form = models.ForeignKey(
+                                EngineeringExamApplication,
+                                on_delete=models.CASCADE
+                            )
+    stream = models.ForeignKey(
+                                EngineeringStream,
+                                null=True,
+                                blank=True,
+                                on_delete=models.DO_NOTHING
+                            )
+    semester = models.ForeignKey(
+                                EngineeringSemester,
+                                on_delete=models.DO_NOTHING,
+                            )
+    subject = models.ForeignKey(
+                            EngineeringSubject,
                             on_delete=models.DO_NOTHING
                         )
