@@ -3,10 +3,11 @@ __pycache__/
 
 # Environments
 venv
+env
 
 # static file
 static
-helm_static/compiled
+helm_static/compiled_file
 
 # Elastic Beanstalk Files
 # .elasticbeanstalk/*

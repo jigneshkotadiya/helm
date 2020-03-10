@@ -127,6 +127,7 @@ else:
             'ENGINE': 'django.db.backends.mysql',
             'USER': 'root',
             'PASSWORD': 'mysql',
+            'PORT': '3307',
             'OPTIONS': {
                 'autocommit': True,
             },
@@ -225,10 +226,11 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
     # other finders..
-    # 'static_precompiler.finders.StaticPrecompilerFinder',
+    'static_precompiler.finders.StaticPrecompilerFinder',
 )
 
-STATIC_PRECOMPILER_OUTPUT_DIR = os.path.join(BASE_DIR, 'helm_static/compiled')
+STATIC_PRECOMPILER_OUTPUT_DIR = 'compiled_file'
+STATIC_PRECOMPILER_ROOT = os.path.join(BASE_DIR, 'helm_static')
 STATIC_PRECOMPILER_DISABLE_AUTO_COMPILE = False
 STATIC_PRECOMPILER_COMPILERS = (
     ('static_precompiler.compilers.libsass.SCSS', {
