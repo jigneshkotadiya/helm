@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'debug_toolbar',  # new
     'smart_selects',  # new
     'django_admin_listfilter_dropdown',  # new
+    'import_export',  # new
 
     'app',  # new
     'users',  # new
@@ -254,3 +255,6 @@ INTERNAL_IPS = [
     '127.0.0.1',
     # ...
 ]
+
+# django import export settings
+IMPORT_EXPORT_USE_TRANSACTIONS = True

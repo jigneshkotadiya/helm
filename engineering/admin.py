@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import *
 from django_admin_listfilter_dropdown.filters import DropdownFilter, \
         RelatedDropdownFilter, ChoiceDropdownFilter
+from import_export.admin import ImportExportModelAdmin
 
 
 # Register your models here.
@@ -45,7 +46,7 @@ class EngineeringSubjectClassificationAdmin(admin.ModelAdmin):
     list_filter = ('semester', 'stream')
 
 
-class EngineeringOutcomeAdmin(admin.ModelAdmin):
+class EngineeringOutcomeAdmin(ImportExportModelAdmin):
     list_display = ('id', 'user', 'exam', 'subject', 'semester',
                     'i_assessment', 'internal_assessment_grade', 't_work',
                     'term_work_grade', 'o_exam', 'oral_grade', 'o_p_exam',
