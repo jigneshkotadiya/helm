@@ -32,8 +32,8 @@ jobs:
         aws-region           : ${{ secrets.aws_region }}
     - name: status
       run: |
-        eb status stage
+        eb status helm-dev
     - name: deploy
       run: |
-        eb deploy stage
+        eb deploy helm-dev
   
